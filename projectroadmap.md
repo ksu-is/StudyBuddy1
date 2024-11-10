@@ -1,29 +1,36 @@
-Phase 1: Planning and Design (Complete)
 
-Define project scope, objectives, and target audience.
-Conduct market research on existing study tools and platforms for inspiration and differentiation.
-Design initial wireframes for the user interface, focusing on simplicity and user engagement.
-Outline core features: user matching, shared notes, flashcards, and progress tracking.
+Study Buddy - Simple Pomodoro Timer with Task Tracker
+1. Key Features
+Pomodoro Timer
 
-Phase 2: Development
+Basic countdown timer set to 25 minutes for a study session and 5 minutes for a break.
+Start, Pause, and Reset buttons to control the timer.
+Alert or notification when a session or break ends.
+Task Tracker
 
-Set up the development environment and establish the tech stack.
-Develop the user-friendly interface following the designed wireframes.
-Begin building the foundation for key features: personalized study plans, collaborative flashcards, and goal tracking.
+Simple list to add tasks with options to mark them as complete or incomplete.
+Ability to delete tasks once they are completed or no longer needed.
+Task data persists only during the session.
+2. User Interface (UI) Design
+Main Screen Layout:
+Timer Display: Shows remaining time with Start, Pause, and Reset buttons below it.
+Task List: An area to add and view tasks, with checkboxes to mark tasks as complete.
+Add Task Field: Simple input field for users to type a new task and add it to the list.
+3. Technical Stack
+Programming Language: Python
+UI Framework: Tkinter (for basic GUI elements)
+4. Development Steps for MVP
+Create Basic Pomodoro Timer:
 
-Phase 3: Backend Development
+Implement countdown function for 25 minutes.
+Add buttons for Start, Pause, and Reset.
+Integrate a simple alert when the timer reaches zero.
+Implement Task Tracker:
 
-Build application components for managing user data, including study preferences and progress tracking.
-Implement matching algorithms for study buddy pairing based on learning styles and subject preferences.
+Build an input field for adding tasks.
+Display tasks in a list format with checkboxes to mark as complete.
+Add delete functionality to remove completed tasks from the list.
+Combine Timer and Task Tracker on Main Screen:
 
-Phase 4: Integration and Testing
-
-Integrate frontend and backend components.
-Conduct comprehensive testing for functionality, usability, and performance.
-Collect feedback and make necessary adjustments.
-
-Phase 5: Continuous Improvement (Ongoing)
-
-Prioritize and implement new features and enhancements based on testing and emerging trends.
-Regularly update documentation
-Maintain and optimize the application for scalability, security, and performance.
+Arrange the timer and task list within a single screen using Tkinter.
+Ensure both components are functional and accessible from the main interface.
