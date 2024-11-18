@@ -41,8 +41,7 @@ def pause_timer():
 # Function to reset the timer
 def reset_timer():
     global timer_running, timer_seconds
-    timer_running = False
-    timer_seconds = work_time
+    timer = {"running": False, "seconds": work_time}
     timer_display.config(text="25:00")
 
 # Timer display and control buttons
